@@ -1,3 +1,3 @@
 output "instance_type" {
-  value = aws_instance.terraform6.public_ip
+  value = module.terraform6_elb.instance_type
 }
